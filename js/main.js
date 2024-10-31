@@ -28,4 +28,9 @@ document.getElementById('donate-btn')
         const finalMainBalance = mainBalance - convetedInputValue;
         document.getElementById('main-balance').innerText = finalMainBalance;
         
+});
+
+document.getElementById('blog-btn')
+    .addEventListener('click', function(){
+        window.location.href = 'anotherindex.html';
 })
