@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+.lexend-font {
+  font-family: "Lexend", sans-serif;
+  font-style: normal;
+}
+/* navbar btn style */
+.body{
+    width: 1140px;
+    margin: auto;
+}
+.navbar-btn{
+    height: 50px;
+    width: 110px;
+    background-color: #B4F461;
+    border-radius: 10px;
+    font-size: 1.25rem;
+}
+.navbar-logo{
+    height: 50px;
+    width: auto;
+    font-size: 1.25rem;
+    gap: 15px;
+}
+.navbar-money{
+    font-size: 1.25rem;
+   
+    
+}
+/* main section style start */
+.main-donation-btn{
+    height: 50px;
+    width: 110px;
+    background-color: #B4F461;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    padding: 10px;
+}
+.main-history-btn{
+    height: 50px;
+    width: 110px;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    padding: 10px;
+}
+.main-container{
+    width: 1140px;
+    height: auto;
+}
+.card-container{
+    border: 1px solid rgb(234, 231, 231);
+    border-radius: 10px;
+    padding: 20px;
+}
+.card-section2-container{
+    width: 550px;
+    height: auto;
+}
+.card-balance-btn{
+    font-size: 1.25rem;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+    width: 160px;
+    margin-bottom: 5px;
+}
+.card-textarea{
+    width: 510px;
+    height: 50px;
+    border: 1px solid rgb(207, 199, 248);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.card-submit-btn{
+    width: 510px;
+    height: 50px;
+    background-color: #B4F461;
+    border-radius: 10px;
+    margin-top: 20px;
+}
