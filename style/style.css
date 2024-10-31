@@ -9,6 +9,15 @@
     width: 1140px;
     margin: auto;
 }
+header{
+    position: sticky;
+    top: 0;
+}
+.sticky{
+    position: sticky;
+    top: 74px;
+    
+}
 .navbar-btn{
     height: 50px;
     width: 110px;
