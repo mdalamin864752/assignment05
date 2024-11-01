@@ -21,6 +21,20 @@ document.getElementById('donate-btn1')
         const mainBalance = getDonateBalanceById('main-balance'); 
         const finalMainBalance = mainBalance - inputValue;
         document.getElementById('main-balance').innerText = finalMainBalance ;
+        //transsction history
+        const p = document.createElement('p');
+        p.innerText = ` ${inputValue} Taka is Donated for Flood at Noakhali, Bangladesh`;
+        document.getElementById('tansaction-container').appendChild(p);
+    
+            // Get the current local time
+            const now = new Date().toLocaleTimeString();
+            const timeElement = document.createElement('p');
+            timeElement.textContent = `Transaction Time: ${now} , Dhaka Bangladesh `;
+            document.getElementById('tansaction-container').appendChild(timeElement);
+          
+          
+
+        
         
         // popup function
         let popup = document.getElementById('popup');
@@ -58,6 +72,17 @@ document.getElementById('donate-btn2')
         const mainBalance = getDonateBalanceById('main-balance'); 
         const finalMainBalance = mainBalance - inputValue;
         document.getElementById('main-balance').innerText = finalMainBalance ;
+
+         //transsction history
+         const p = document.createElement('p');
+         p.innerText = ` ${inputValue} Taka is Donated for Flood at Feni, Bangladesh`;
+         document.getElementById('tansaction-container').appendChild(p);
+     
+             // Get the current local time
+             const now = new Date().toLocaleTimeString();
+             const timeElement = document.createElement('p');
+             timeElement.textContent = `Transaction Time: ${now} , Dhaka Bangladesh `;
+             document.getElementById('tansaction-container').appendChild(timeElement);
         
         // popup function
         let popup = document.getElementById('popup');
@@ -89,6 +114,17 @@ document.getElementById('donate-btn3')
         const mainBalance = getDonateBalanceById('main-balance'); 
         const finalMainBalance = mainBalance - inputValue;
         document.getElementById('main-balance').innerText = finalMainBalance ;
+
+         //transsction history
+         const p = document.createElement('p');
+         p.innerText = ` ${inputValue} Taka is Donated for Injured in the Quota Movement, Bangladesh`;
+         document.getElementById('tansaction-container').appendChild(p);
+     
+             // Get the current local time
+             const now = new Date().toLocaleTimeString();
+             const timeElement = document.createElement('p');
+             timeElement.textContent = `Transaction Time: ${now} , Dhaka Bangladesh `;
+             document.getElementById('tansaction-container').appendChild(timeElement);
         
         // popup function
         let popup = document.getElementById('popup');

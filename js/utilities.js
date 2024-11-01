@@ -15,6 +15,14 @@ function getMainBalanceById (id){
     const convertedMainBalance = parseFloat(mainBalance);
     return convertedMainBalance;
 }
+//hiding button fuction
+
+function showSectionById (){
+    document.getElementById('donation-section').classList.add('hidden');
+    document.getElementById('history-section').classList.add('hidden');
+    //show the section when click the button
+    document.getElementById(id).classList.remove('hidden');
+}
 
 // popup function 
 document.getElementById('close-popup-btn').addEventListener('click', function(){
